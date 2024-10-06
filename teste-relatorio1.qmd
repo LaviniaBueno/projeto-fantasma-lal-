@@ -16,11 +16,11 @@ source("rdocs/source/packages.R")
 
 # Análises
 
-## analise 1
+## Análise 1
 
 Nesta análise, será avaliado o número de medalhas por país. As variáveis são, respectivamente, quantitativa discreta e qualitativa nominal.
 
-![boxplot de numero de medalhas por país](images/box_uni.png){#boxplot1 width="158mm"}
+![Boxplot do número de medalhas por país](images/box_uni.png){#fig-boxplot1 width="158mm"}
 
 ```{=latex}
  \begin{quadro}[H]
@@ -43,12 +43,12 @@ Nesta análise, será avaliado o número de medalhas por país. As variáveis s�
         Máximo & 7 \\
     \bottomrule
     \end{tabular}
-    \label{quad:quadro-resumo}
+    \label{quad:quadro-resumo1}
     \end{adjustbox}
 \end{quadro}
 ```
 Como pode-se observar na @fig-boxplot1 , bla bla bla
 
-como mostra o $\ref{quad:quadro-resumo}$
+Como mostra o $\ref{quad:quadro-resumo1}$, ....
 
 # Conclusões
