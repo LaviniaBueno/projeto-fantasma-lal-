@@ -1,0 +1,54 @@
+---
+title: "Modelo Projeto - Quarto"
+
+# Nome do documento PDF gerado
+output-file: titulo do projeto
+---
+
+```{r}
+#| include: false
+source("rdocs/source/packages.R")
+```
+
+# Introdução
+
+# Referencial Teórico
+
+# Análises
+
+## analise 1
+
+Nesta análise, será avaliado o número de medalhas por país. As variáveis são, respectivamente, quantitativa discreta e qualitativa nominal.
+
+![boxplot de numero de medalhas por país](images/box_uni.png){#boxplot1 width="158mm"}
+
+```{=latex}
+ \begin{quadro}[H]
+    \caption{Medidas resumo da(o) [nome da variável]}
+    \centering
+    \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{ | l |
+            S[table-format = 1.2]
+            |}
+    \toprule
+        \textbf{Estatística} & \textbf{Valor} \\
+        \midrule
+        Média & 3,47 \\
+        Desvio Padrão & 1,29 \\
+        Variância & 1,67 \\
+        Mínimo & 1,6 \\
+        1º Quartil & 2,4 \\
+        Mediana & 3,3 \\
+        3º Quartil & 4,6 \\
+        Máximo & 7 \\
+    \bottomrule
+    \end{tabular}
+    \label{quad:quadro-resumo}
+    \end{adjustbox}
+\end{quadro}
+```
+Como pode-se observar na @fig-boxplot1 , bla bla bla
+
+como mostra o $\ref{quad:quadro-resumo}$
+
+# Conclusões

@@ -4,12 +4,14 @@ title: "Modelo Projeto - Quarto"
 # Nome do documento PDF gerado
 output-file: titulo do projeto
 ---
+
 ```{r}
 #| include: false
 source("rdocs/source/packages.R")
 ```
 
 ```{r}
+{r}
 # Rodar apenas uma vez na vida!
 ## Instalando o tinytex(pacote apenas)
 ### CRAN version
@@ -22,7 +24,6 @@ remotes::install_github('rstudio/tinytex')
 library(tinytex)
 tinytex::install_tinytex()
 ```
-
 
 
 # Introdução
