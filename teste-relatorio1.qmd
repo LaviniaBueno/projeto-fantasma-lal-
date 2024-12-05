@@ -22,6 +22,8 @@ Nesta análise, será avaliado o número de medalhas por país. As variáveis s�
 
 ![Boxplot do número de medalhas por país](images/box_uni.png){#fig-boxplot1 width="158mm"}
 
+![Boxplot do número de medalhas por país](images/box_uni.png){width="158mm"}
+
 ```{=latex}
  \begin{quadro}[H]
     \caption{Medidas resumo da(o) [nome da variável]}
@@ -47,8 +49,25 @@ Nesta análise, será avaliado o número de medalhas por país. As variáveis s�
     \end{adjustbox}
 \end{quadro}
 ```
+
 Como pode-se observar na @fig-boxplot1 , bla bla bla
 
 Como mostra o $\ref{quad:quadro-resumo1}$, ....
+
+```{=latex}
+\begin{table}[H]
+  \begin{tabular}{lllll}
+  \cline{1-1} \cline{3-3}
+  medidas & jnkjnd &  &  &  \\
+          &        &  &  &  \\
+          &        &  &  &  \\
+          &        &  &  & 
+  \end{tabular}
+\end{table}
+```
+
+## analise 2
+
+ujhiuhiuh
 
 # Conclusões
